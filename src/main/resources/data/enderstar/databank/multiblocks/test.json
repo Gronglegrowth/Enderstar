@@ -1,0 +1,24 @@
+{
+  "key": {
+    "s": {
+      "type": "databank:blockstate",
+      "state": "minecraft:soul_sand"
+    },
+    "e": {
+      "type": "databank:blockstate",
+      "state": "minecraft:emerald_block"
+    }
+  },
+  "layers": [
+    [
+      "*s*",
+      "ses",
+      "*s*"
+    ]
+  ],
+  "center": [
+    1,
+    0,
+    1
+  ]
+}

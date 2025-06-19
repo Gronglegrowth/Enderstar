@@ -1,0 +1,16 @@
+{
+  "advancements.enderstar.progression_1.title": "Enderstar: Introduction",
+  "advancements.enderstar.progression_1.description": "Enter the role of a Radiagican - by reading.",
+
+  "block.enderstar.matrix_destructor": "Matrix Destructor",
+  "block.enderstar.irradiator": "Irradiator",
+  "block.enderstar.ray_tower": "Ray Tower",
+
+  "commands.enderstar.manipulate_matrix.success": "Successfully changed %s's matrix values to %s MRU with a Balance of %s (%s).",
+
+  "item.enderstar.bound_gem": "Bound Gem",
+  "item.enderstar.bound_gem.tooltip_unlinked": "Unlinked.",
+  "item.enderstar.bound_gem.tooltip_linked": "Linked to %s at %s, %s, %s in %s. Sneak use to clear.",
+  "item.enderstar.guidebook": "A Radiagician's Primer",
+  "item.enderstar.guidebook.tooltip": "Guidebook for Enderstar"
+}

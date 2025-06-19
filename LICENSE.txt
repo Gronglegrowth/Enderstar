@@ -1,9 +1,8 @@
-MIT License
+Enderstar has two licenses. One for its assets - that is any file in `/src/resources/assets/enderstar/` with the exception of those listed in `credits.md` at the root of this repository - and one for its code.
 
-Copyright (c) 2023 NeoForged project
+Enderstar's assets are (c) 2025 Eset Kalenko and are All Rights Reserved. Usage, redistribution, and derivatives of the assets are forbidden unless given explicit permission to do so.
 
-This license applies to the template files as supplied by github.com/NeoForged/MDK
-
+Enderstar's code is licensed MIT, which is as follows:
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

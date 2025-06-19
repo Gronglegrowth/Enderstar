@@ -1,0 +1,10 @@
+{
+  "type": "enderstar:in_world_crafting",
+  "input": {
+    "item": "minecraft:emerald"
+  },
+  "block_pattern": "enderstar:databank/multiblocks/test",
+  "result": {
+    "item": "minecraft:lime_dye", "count": 3
+  }
+}
