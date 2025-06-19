@@ -3,7 +3,7 @@
   "input": {
     "item": "minecraft:emerald"
   },
-  "block_pattern": "enderstar:databank/multiblocks/test",
+  "block_pattern": "enderstar:databank/multiblocks/soul_stone_pattern",
   "result": {
     "item": "minecraft:lime_dye", "count": 3
   }
