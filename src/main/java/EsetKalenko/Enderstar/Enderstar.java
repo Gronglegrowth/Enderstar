@@ -1,15 +1,17 @@
 package EsetKalenko.Enderstar;
 
 import EsetKalenko.Enderstar.Registry.EnderstarBlocks;
+import EsetKalenko.Enderstar.Registry.EnderstarCreativeTabs;
+import EsetKalenko.Enderstar.Registry.EnderstarItems;
 import EsetKalenko.Enderstar.Registry.EnderstarRecipes;
 
+import net.minecraft.resources.ResourceLocation;
 import org.slf4j.Logger;
 import com.mojang.logging.LogUtils;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.ModContainer;
 import net.neoforged.fml.common.Mod;
 import net.neoforged.fml.config.ModConfig;
-import net.neoforged.neoforge.common.NeoForge;
 
 @Mod(Enderstar.MODID)
 public class Enderstar {
@@ -26,14 +28,19 @@ public class Enderstar {
         LOGGER.error("[ENDERSTAR ERROR] " + message);
     }
 
+    public static ResourceLocation locate(String path) {
+        return ResourceLocation.fromNamespaceAndPath(MODID, path);
+    }
+
     public Enderstar(IEventBus modEventBus, ModContainer modContainer)
     {
         logInfo("The legend of the Enderstar lives on....");
         EnderstarBlocks.REGISTRAR.register(modEventBus);
+        EnderstarItems.REGISTRAR.register(modEventBus);
+        EnderstarCreativeTabs.register(modEventBus);
         EnderstarRecipes.SERIALIZER_REGISTRAR.register(modEventBus);
         EnderstarRecipes.TYPE_REGISTRAR.register(modEventBus);
 
-        // Register our mod's ModConfigSpec so that FML can create and load the config file for us
         modContainer.registerConfig(ModConfig.Type.COMMON, EnderstarConfig.SPEC);
     }
 }

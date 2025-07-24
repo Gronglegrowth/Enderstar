@@ -1,19 +1,19 @@
 {
   "key": {
-    "s": {
+    "m": {
       "type": "databank:blockstate",
-      "state": "minecraft:soul_sand"
+      "state": "minecraft:magma_block"
     },
-    "e": {
+    "n": {
       "type": "databank:blockstate",
-      "state": "minecraft:emerald_block"
+      "state": "minecraft:netherrack"
     }
   },
   "layers": [
     [
-      "*s*",
-      "ses",
-      "*s*"
+      "*m*",
+      "mnm",
+      "*m*"
     ]
   ],
   "center": [

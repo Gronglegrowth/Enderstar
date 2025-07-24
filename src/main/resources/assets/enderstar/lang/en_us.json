@@ -12,5 +12,6 @@
   "item.enderstar.bound_gem.tooltip_unlinked": "Unlinked.",
   "item.enderstar.bound_gem.tooltip_linked": "Linked to %s at %s, %s, %s in %s. Sneak use to clear.",
   "item.enderstar.guidebook": "A Radiagician's Primer",
-  "item.enderstar.guidebook.tooltip": "Guidebook for Enderstar"
+  "item.enderstar.guidebook.tooltip": "Guidebook for Enderstar",
+  "itemGroup.enderstar.materials": "Enderstar Materials"
 }

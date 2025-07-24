@@ -27,7 +27,7 @@ public class InWorldCraftingRecipe implements Recipe<RecipeInput> {
 
     @Override
     public boolean matches(RecipeInput recipeInput, Level level) {
-        return false;
+        return input.test(recipeInput.getItem(0));
     }
 
     @Override

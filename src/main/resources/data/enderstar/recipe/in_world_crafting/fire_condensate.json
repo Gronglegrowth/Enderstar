@@ -1,0 +1,10 @@
+{
+  "type": "enderstar:in_world_crafting",
+  "input": {
+    "item": "minecraft:blaze_powder"
+  },
+  "block_pattern": "enderstar:fire_condensate_pattern",
+  "result": {
+    "id": "enderstar:fire_condensate", "count": 3
+  }
+}
