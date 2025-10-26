@@ -2,6 +2,9 @@ package EsetKalenko.Enderstar.Registry;
 
 import EsetKalenko.Enderstar.Enderstar;
 import EsetKalenko.Enderstar.Item.Material.AssemblyPowder;
+import EsetKalenko.Enderstar.Item.Tool.BoundGem;
+import EsetKalenko.Enderstar.Item.Tool.Primer;
+import EsetKalenko.Enderstar.Item.Tool.SoulStone;
 import net.minecraft.world.item.Item;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
@@ -18,4 +21,9 @@ public class EnderstarItems {
     public static final DeferredItem<Item> ELEMENTAL_CONDENSATE = REGISTRAR.registerItem("elemental_condensate", Item::new, new Item.Properties());
 
     public static final DeferredItem<Item> ASSEMBLY_POWDER = REGISTRAR.registerItem("assembly_powder", AssemblyPowder::new, new Item.Properties());
+
+    // Tools
+    public static final DeferredItem<Item> PRIMER = REGISTRAR.registerItem("primer", Primer::new, new Item.Properties().stacksTo(1));
+    public static final DeferredItem<Item> SOUL_STONE = REGISTRAR.registerItem("soul_stone", SoulStone::new, new Item.Properties().stacksTo(1));
+    public static final DeferredItem<Item> BOUND_GEM = REGISTRAR.registerItem("bound_gem", BoundGem::new, new Item.Properties().stacksTo(1));
 }

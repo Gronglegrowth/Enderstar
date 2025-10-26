@@ -1,8 +1,8 @@
 {
   "key": {
     "s": {
-      "type": "databank:blockstate",
-      "state": "minecraft:soul_sand"
+      "type": "databank:tag",
+      "tag": "minecraft:soul_fire_base_blocks"
     },
     "e": {
       "type": "databank:blockstate",

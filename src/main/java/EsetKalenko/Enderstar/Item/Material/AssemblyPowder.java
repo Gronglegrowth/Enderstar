@@ -1,6 +1,5 @@
 package EsetKalenko.Enderstar.Item.Material;
 
-import EsetKalenko.Enderstar.Enderstar;
 import EsetKalenko.Enderstar.Recipe.InWorldCraftingRecipe;
 import EsetKalenko.Enderstar.Registry.EnderstarRecipes;
 
@@ -24,6 +23,8 @@ public class AssemblyPowder extends Item {
     public AssemblyPowder(Properties properties) {
         super(properties);
     }
+
+    // TODO dispenser behaviour; make sure the checks are adjusted accordingly
 
     @Override
     public InteractionResult useOn(UseOnContext context) {

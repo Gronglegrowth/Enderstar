@@ -1,17 +1,43 @@
 {
   "advancements.enderstar.progression_1.title": "Enderstar: Introduction",
-  "advancements.enderstar.progression_1.description": "Enter the role of a Radiagican - by reading.",
+  "advancements.enderstar.progression_1.description": "Enter the role of a Magical Engineer - by reading.",
+
+  "advancements.enderstar.collect_all_condensates.title": "Novice Elementalist",
+  "advancements.enderstar.collect_all_condensates.description": "Obtain all five types of Elemental Condensate.",
+  "advancements.enderstar.use_soul_stone.title": "An Inside Look",
+  "advancements.enderstar.use_soul_stone.description": "Create and use your personal Soul Stone.",
+  "advancements.enderstar.place_matrix_destructor.title": "Taking Yourself Apart",
+  "advancements.enderstar.place_matrix_destructor.description": "Place a Matrix Destructor.",
+  "advancements.enderstar.place_irradiator.title": "Radiation, for Fun and Profit",
+  "advancements.enderstar.place_irradiator.description": "Place an Irradiator.",
 
   "block.enderstar.matrix_destructor": "Matrix Destructor",
   "block.enderstar.irradiator": "Irradiator",
   "block.enderstar.ray_tower": "Ray Tower",
 
-  "commands.enderstar.manipulate_matrix.success": "Successfully changed %s's matrix values to %s MRU with a Balance of %s (%s).",
+  "commands.enderstar.manipulate_matrix.success": "Successfully changed %1s's matrix values to %2smT with a Balance of %3s (%4s).",
+
+  "item.enderstar.assembly_powder": "Assembly Powder",
+  "item.enderstar.air_condensate": "Condensed Air",
+  "item.enderstar.earth_condensate": "Condensed Earth",
+  "item.enderstar.elemental_condensate": "Elemental Condensate",
+  "item.enderstar.fire_condensate": "Condensed Flame",
+  "item.enderstar.water_condensate": "Condensed Water",
 
   "item.enderstar.bound_gem": "Bound Gem",
-  "item.enderstar.bound_gem.tooltip_unlinked": "Unlinked.",
-  "item.enderstar.bound_gem.tooltip_linked": "Linked to %s at %s, %s, %s in %s. Sneak use to clear.",
-  "item.enderstar.guidebook": "A Radiagician's Primer",
-  "item.enderstar.guidebook.tooltip": "Guidebook for Enderstar",
-  "itemGroup.enderstar.materials": "Enderstar Materials"
+  "item.enderstar.bound_gem.tooltip_unlinked": "-its silence betrays no linked location-",
+  "item.enderstar.bound_gem.tooltip_linked1": "-the steady hum and glowing aura suggest it is bound-",
+  "item.enderstar.bound_gem.tooltip_linked2": "Appears to link to %1s at %2s, %3s, %4s in %5s. Sneak use to clear.",
+  "item.enderstar.primer": "A Mage's Primer",
+  "item.enderstar.primer.tooltip": "-appears to be a guidebook-",
+  "item.enderstar.soul_stone": "Soul Stone",
+  "item.enderstar.soul_stone.tooltip1": "-seems to resonate with the matrix of %1s-",
+  "item.enderstar.soul_stone.tooltip2": "The detected %1smT twists with %2s energies.",
+
+  "itemGroup.enderstar.machines": "Enderstar Machines",
+  "itemGroup.enderstar.machines.selected": "   Machines",
+  "itemGroup.enderstar.materials": "Enderstar Materials",
+  "itemGroup.enderstar.materials.selected": "   Materials",
+  "itemGroup.enderstar.tools": "Enderstar Tools",
+  "itemGroup.enderstar.tools.selected": "   Tools"
 }
